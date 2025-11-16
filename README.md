@@ -1,72 +1,55 @@
 <div align="center">
-  <img src="https://i.postimg.cc/jjtSk25k/Chat-GPT-Image-16-de-nov-de-2025-14-31-48.png" width="300px" alt="Mockup da Calculadora React"/>
+  <img src="https://i.postimg.cc/jjtSk25k/Chat-GPT-Image-16-de-nov-de-2025-14-31-48.png" width="250px" alt="Mockup da Calculadora React"/>
 </div>
 
 # 🔢 Calculadora React
 
-Uma calculadora moderna desenvolvida com **React + Vite**, criada para treinar manipulação de estado, componentes reutilizáveis e lógica de operações matemáticas.
+👉 **[Clique aqui para acessar o projeto online](https://nataliapastre-dev.github.io/calculadora-react/)**
 
-👉 **Acesse o projeto online:**  
-🔗 https://nataliapastre-dev.github.io/calculadora-react/
+Uma calculadora moderna desenvolvida com **React + Vite**, criada para treinar manipulação de estado, componentização e lógica de cálculos matemáticos.
 
 ---
 
 ## 📘 Sobre o Projeto
 
-Este projeto foi criado com o objetivo de praticar:
+Este projeto foi desenvolvido com foco em estudar fundamentos do React, como:
 
-- Estruturação de componentes no React  
-- Manipulação de estado com `useState`  
-- Renderização dinâmica de botões  
-- Funções de cálculo seguras (sem uso de `eval`)  
-- Estilização com CSS e design responsivo  
-- Deploy com GitHub Pages  
+- Componentização
+- Hooks (`useState`)
+- Renderização dinâmica de botões
+- Lógica de cálculo sem uso de `eval`
+- Estilização responsiva com CSS
+- Deploy no GitHub Pages
 
-A interface foi inspirada em calculadoras modernas, com botões bem definidos, destaque para operações e foco na usabilidade.
+A calculadora possui uma interface simples, intuitiva e moderna, com botões destacados e layout adaptado para desktop e mobile.
 
 ---
 
 ## ✨ Funcionalidades
 
-✔️ **Display dinâmico**  
-Mostra valores digitados e resultados em tempo real.
-
-✔️ **Operações matemáticas básicas**  
-- Adição  
-- Subtração  
-- Multiplicação  
-- Divisão  
-
-✔️ **Função de limpar (C)**  
-Apaga todo o conteúdo digitado.
-
-✔️ **Botão “=” com função de cálculo segura**  
-• Converte a expressão digitada  
-• Filtra caracteres inválidos  
-• Evita falhas e erros de execução  
-• Retorna resultado ou mostra "Erro" caso a expressão seja inválida  
-
-✔️ **Layout responsivo**  
-Funciona no computador e no celular.
-
-✔️ **Design moderno e clean**  
-Cores bem definidas, com destaque para operadores e botões especiais.
+✔️ Display dinâmico  
+✔️ Operações básicas: **+**, **-**, **\***, **/**  
+✔️ Botão **C** para limpar  
+✔️ Cálculo seguro (sem eval)  
+✔️ Tratamento de erros  
+✔️ Layout responsivo  
+✔️ Design claro e intuitivo  
 
 ---
 
-## 🛠 Tecnologias Usadas
+## 🛠 Tecnologias Utilizadas
 
-- **React 19**
-- **Vite**
-- **JavaScript**
-- **CSS**
-- **gh-pages** (deploy automático)
+- React 19  
+- Vite  
+- JavaScript  
+- CSS  
+- gh-pages  
 
 ---
 
 ## 🚀 Como rodar o projeto localmente
 
-### 1️⃣ Clone o repositório
+### 1️⃣ Clonar o repositório
 ```bash
 git clone https://github.com/nataliapastre/calculadora-react.git
 cd calculadora-react
