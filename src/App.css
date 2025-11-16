@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #9f73ff);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background 0.4s ease-in-out;
+}
+
+/* 🌞 Modo Claro Automático */
+@media (prefers-color-scheme: light) {
+  body {
+    background: linear-gradient(135deg, #c3a3ff, #8b5cf6);
+  }
+
+  .calculator {
+    background-color: #f9f9ff;
+  }
+
+  .display {
+    background-color: #e8e8f9;
+    color: #222;
+  }
+
+  .footer {
+    color: #222;
+    opacity: 0.7;
+  }
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.calculator {
+  background-color: #1e1e2f;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  width: 320px;
+  max-width: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+.display {
+  background-color: #2a2a3d;
+  color: #fff;
+  font-size: 2.2rem;
+  text-align: right;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+  overflow-x: auto;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+}
+
+.btn-num {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.btn-num:hover {
+  background-color: #d9d9d9;
+  transform: scale(1.05);
+}
+
+.btn-op {
+  background-color: #5a67d8;
+  color: #fff;
+}
+
+.btn-op:hover {
+  background-color: #434190;
+  transform: scale(1.05);
+}
+
+.btn-ca {
+  background-color: #e53e3e;
+  color: #fff;
+}
+
+.btn-ca:hover {
+  background-color: #c53030;
+  transform: scale(1.05);
+}
+
+.btn-equal {
+  background-color: #38a169;
+  color: #fff;
+  grid-column: span 2;
+}
+
+.btn-equal:hover {
+  background-color: #2f855a;
+  transform: scale(1.05);
+}
+
+.footer {
+  color: #fff;
+  font-size: 0.9rem;
+  margin-top: 20px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+/* 📱 Responsividade (celulares) */
+@media (max-width: 480px) {
+  body {
+    background: linear-gradient(160deg, #6a11cb, #9f73ff);
+    padding: 10px;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .calculator {
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+  }
+
+  .display {
+    font-size: 1.8rem;
+    padding: 12px;
+  }
+
+  button {
+    font-size: 1.1rem;
+    padding: 18px;
+  }
+
+  .footer {
+    font-size: 0.8rem;
+    margin-top: 15px;
+  }
+}
+
+/* 💻 Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .calculator {
+    width: 400px;
+  }
+
+  .display {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+    padding: 16px;
+  }
+}
