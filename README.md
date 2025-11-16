@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.postimg.cc/jjtSk25k/Chat-GPT-Image-16-de-nov-de-2025-14-31-48.png" width="420px" alt="Mockup da Calculadora React"/>
+  <img src="https://i.postimg.cc/jjtSk25k/Chat-GPT-Image-16-de-nov-de-2025-14-31-48.png" width="300px" alt="Mockup da Calculadora React"/>
 </div>
 
 # 🔢 Calculadora React
