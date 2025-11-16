@@ -1,16 +1,72 @@
-# React + Vite
+<div align="center">
+  <img src="https://i.postimg.cc/jjtSk25k/Chat-GPT-Image-16-de-nov-de-2025-14-31-48.png" width="420px" alt="Mockup da Calculadora React"/>
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🔢 Calculadora React
 
-Currently, two official plugins are available:
+Uma calculadora moderna desenvolvida com **React + Vite**, criada para treinar manipulação de estado, componentes reutilizáveis e lógica de operações matemáticas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 **Acesse o projeto online:**  
+🔗 https://nataliapastre-dev.github.io/calculadora-react/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📘 Sobre o Projeto
 
-## Expanding the ESLint configuration
+Este projeto foi criado com o objetivo de praticar:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Estruturação de componentes no React  
+- Manipulação de estado com `useState`  
+- Renderização dinâmica de botões  
+- Funções de cálculo seguras (sem uso de `eval`)  
+- Estilização com CSS e design responsivo  
+- Deploy com GitHub Pages  
+
+A interface foi inspirada em calculadoras modernas, com botões bem definidos, destaque para operações e foco na usabilidade.
+
+---
+
+## ✨ Funcionalidades
+
+✔️ **Display dinâmico**  
+Mostra valores digitados e resultados em tempo real.
+
+✔️ **Operações matemáticas básicas**  
+- Adição  
+- Subtração  
+- Multiplicação  
+- Divisão  
+
+✔️ **Função de limpar (C)**  
+Apaga todo o conteúdo digitado.
+
+✔️ **Botão “=” com função de cálculo segura**  
+• Converte a expressão digitada  
+• Filtra caracteres inválidos  
+• Evita falhas e erros de execução  
+• Retorna resultado ou mostra "Erro" caso a expressão seja inválida  
+
+✔️ **Layout responsivo**  
+Funciona no computador e no celular.
+
+✔️ **Design moderno e clean**  
+Cores bem definidas, com destaque para operadores e botões especiais.
+
+---
+
+## 🛠 Tecnologias Usadas
+
+- **React 19**
+- **Vite**
+- **JavaScript**
+- **CSS**
+- **gh-pages** (deploy automático)
+
+---
+
+## 🚀 Como rodar o projeto localmente
+
+### 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/nataliapastre/calculadora-react.git
+cd calculadora-react
